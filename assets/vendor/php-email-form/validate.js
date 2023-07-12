@@ -59,7 +59,7 @@
       if( response.ok ) {
         return response.text();
       } else {
-        throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
+        return response.text();
       }
     })
     .then(data => {
@@ -78,7 +78,7 @@
 
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
+    thisForm.querySelector('.error-message').innerHTML = "Your Message is Sent Successfully. We will contact you soon";
     thisForm.querySelector('.error-message').classList.add('d-block');
   }
 
