@@ -78,7 +78,7 @@
 
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = "Your Message is Sent Successfully. We will contact you soon";
+    thisForm.querySelector('.error-message').innerHTML = "Your message is sent successfully. We will contact you soon!";
     thisForm.querySelector('.error-message').classList.add('d-block');
   }
 

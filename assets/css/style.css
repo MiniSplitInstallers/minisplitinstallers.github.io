@@ -629,14 +629,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
+# Benefits
 --------------------------------------------------------------*/
-.counts {
+.count {
   background: white;
   padding: 30px 0 40px 0;
 }
 
-.counts .count-box {
+.count .icon-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
   position: relative;
@@ -644,9 +644,9 @@ section {
   background: #fff;
 }
 
-.counts .count-box i {
+.count .icon-box i {
   position: absolute;
-  top: -25px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
@@ -661,14 +661,20 @@ section {
   height: 48px;
 }
 
-.counts .count-box span {
+.count .icon-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
   color: #124364;
 }
 
-.counts .count-box p {
+.count .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.count .icon-box p {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
@@ -808,7 +814,7 @@ section {
   color: #5d5d5d;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 /*--------------------------------------------------------------
